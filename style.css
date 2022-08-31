@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  display: grid;
+  place-items: center;
+}
+
+.container{
+  width: 90%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, .6);
+  border-radius: 20px;
+}
+
+.container .time{
+  width: 80%;
+  height: 20%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container hr{
+  width: 30%;
+  border-color: #fff;
+}
+
+.container .date{
+  width: 80%;
+  height: 20%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
